@@ -1,0 +1,10 @@
+C:\Users\Ashley\Desktop\Centennial Courses\Year 3\Semester 3\DevOps Implementation\Lab 4\Lab4Q1\Comp367Lab4\Lab4Q1\StringLibrary\bin\Debug\netcoreapp3.1\StringLibrary.deps.json
+C:\Users\Ashley\Desktop\Centennial Courses\Year 3\Semester 3\DevOps Implementation\Lab 4\Lab4Q1\Comp367Lab4\Lab4Q1\StringLibrary\bin\Debug\netcoreapp3.1\StringLibrary.dll
+C:\Users\Ashley\Desktop\Centennial Courses\Year 3\Semester 3\DevOps Implementation\Lab 4\Lab4Q1\Comp367Lab4\Lab4Q1\StringLibrary\bin\Debug\netcoreapp3.1\StringLibrary.pdb
+C:\Users\Ashley\Desktop\Centennial Courses\Year 3\Semester 3\DevOps Implementation\Lab 4\Lab4Q1\Comp367Lab4\Lab4Q1\StringLibrary\obj\Debug\netcoreapp3.1\StringLibrary.csproj.AssemblyReference.cache
+C:\Users\Ashley\Desktop\Centennial Courses\Year 3\Semester 3\DevOps Implementation\Lab 4\Lab4Q1\Comp367Lab4\Lab4Q1\StringLibrary\obj\Debug\netcoreapp3.1\StringLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ashley\Desktop\Centennial Courses\Year 3\Semester 3\DevOps Implementation\Lab 4\Lab4Q1\Comp367Lab4\Lab4Q1\StringLibrary\obj\Debug\netcoreapp3.1\StringLibrary.AssemblyInfoInputs.cache
+C:\Users\Ashley\Desktop\Centennial Courses\Year 3\Semester 3\DevOps Implementation\Lab 4\Lab4Q1\Comp367Lab4\Lab4Q1\StringLibrary\obj\Debug\netcoreapp3.1\StringLibrary.AssemblyInfo.cs
+C:\Users\Ashley\Desktop\Centennial Courses\Year 3\Semester 3\DevOps Implementation\Lab 4\Lab4Q1\Comp367Lab4\Lab4Q1\StringLibrary\obj\Debug\netcoreapp3.1\StringLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Ashley\Desktop\Centennial Courses\Year 3\Semester 3\DevOps Implementation\Lab 4\Lab4Q1\Comp367Lab4\Lab4Q1\StringLibrary\obj\Debug\netcoreapp3.1\StringLibrary.dll
+C:\Users\Ashley\Desktop\Centennial Courses\Year 3\Semester 3\DevOps Implementation\Lab 4\Lab4Q1\Comp367Lab4\Lab4Q1\StringLibrary\obj\Debug\netcoreapp3.1\StringLibrary.pdb
