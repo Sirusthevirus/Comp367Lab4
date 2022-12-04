@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ashley\\Desktop\\Centennial Courses\\Year 3\\Semester 3\\DevOps Implementation\\Lab 4\\Lab4Q1\\Comp367Lab4\\Lab4Q1\\StringLibrary\\StringLibrary.csproj": {}
+    "C:\\Users\\Ashley\\Desktop\\Centennial Courses\\Year 3\\Semester 3\\DevOps Implementation\\Lab 4\\Lab4Q1\\Comp367Lab4\\Lab4Q1\\ShowCase\\ShowCase.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ashley\\Desktop\\Centennial Courses\\Year 3\\Semester 3\\DevOps Implementation\\Lab 4\\Lab4Q1\\Comp367Lab4\\Lab4Q1\\StringLibrary\\StringLibrary.csproj": {
+    "C:\\Users\\Ashley\\Desktop\\Centennial Courses\\Year 3\\Semester 3\\DevOps Implementation\\Lab 4\\Lab4Q1\\Comp367Lab4\\Lab4Q1\\ShowCase\\ShowCase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ashley\\Desktop\\Centennial Courses\\Year 3\\Semester 3\\DevOps Implementation\\Lab 4\\Lab4Q1\\Comp367Lab4\\Lab4Q1\\StringLibrary\\StringLibrary.csproj",
-        "projectName": "StringLibrary",
-        "projectPath": "C:\\Users\\Ashley\\Desktop\\Centennial Courses\\Year 3\\Semester 3\\DevOps Implementation\\Lab 4\\Lab4Q1\\Comp367Lab4\\Lab4Q1\\StringLibrary\\StringLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\Ashley\\Desktop\\Centennial Courses\\Year 3\\Semester 3\\DevOps Implementation\\Lab 4\\Lab4Q1\\Comp367Lab4\\Lab4Q1\\ShowCase\\ShowCase.csproj",
+        "projectName": "ShowCase",
+        "projectPath": "C:\\Users\\Ashley\\Desktop\\Centennial Courses\\Year 3\\Semester 3\\DevOps Implementation\\Lab 4\\Lab4Q1\\Comp367Lab4\\Lab4Q1\\ShowCase\\ShowCase.csproj",
         "packagesPath": "C:\\Users\\Ashley\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ashley\\Desktop\\Centennial Courses\\Year 3\\Semester 3\\DevOps Implementation\\Lab 4\\Lab4Q1\\Comp367Lab4\\Lab4Q1\\StringLibrary\\obj\\",
+        "outputPath": "C:\\Users\\Ashley\\Desktop\\Centennial Courses\\Year 3\\Semester 3\\DevOps Implementation\\Lab 4\\Lab4Q1\\Comp367Lab4\\Lab4Q1\\ShowCase\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -43,6 +43,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "StringLibrary": {
+              "target": "Package",
+              "version": "[1.0.0-CI-20221204-205312, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

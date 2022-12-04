@@ -1,11 +1,35 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "StringLibrary/1.0.0-CI-20221204-205312": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/StringLibrary.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/StringLibrary.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "StringLibrary/1.0.0-CI-20221204-205312": {
+      "sha512": "n/XfK5237Hd5f5YvfBjTLMIRaBk1T0h1W+K4sL28OaobgRQ60Zcrg/6I0961QKnzhICgCDYG6+lEJx1RKSNMBA==",
+      "type": "package",
+      "path": "stringlibrary/1.0.0-ci-20221204-205312",
+      "files": [
+        ".nupkg.metadata",
+        "lib/netcoreapp3.1/StringLibrary.dll",
+        "stringlibrary.1.0.0-ci-20221204-205312.nupkg.sha512",
+        "stringlibrary.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "StringLibrary >= 1.0.0-CI-20221204-205312"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Ashley\\.nuget\\packages\\": {},
@@ -14,11 +38,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ashley\\Desktop\\Centennial Courses\\Year 3\\Semester 3\\DevOps Implementation\\Lab 4\\Lab4Q1\\Comp367Lab4\\Lab4Q1\\StringLibrary\\StringLibrary.csproj",
-      "projectName": "StringLibrary",
-      "projectPath": "C:\\Users\\Ashley\\Desktop\\Centennial Courses\\Year 3\\Semester 3\\DevOps Implementation\\Lab 4\\Lab4Q1\\Comp367Lab4\\Lab4Q1\\StringLibrary\\StringLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\Ashley\\Desktop\\Centennial Courses\\Year 3\\Semester 3\\DevOps Implementation\\Lab 4\\Lab4Q1\\Comp367Lab4\\Lab4Q1\\ShowCase\\ShowCase.csproj",
+      "projectName": "ShowCase",
+      "projectPath": "C:\\Users\\Ashley\\Desktop\\Centennial Courses\\Year 3\\Semester 3\\DevOps Implementation\\Lab 4\\Lab4Q1\\Comp367Lab4\\Lab4Q1\\ShowCase\\ShowCase.csproj",
       "packagesPath": "C:\\Users\\Ashley\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ashley\\Desktop\\Centennial Courses\\Year 3\\Semester 3\\DevOps Implementation\\Lab 4\\Lab4Q1\\Comp367Lab4\\Lab4Q1\\StringLibrary\\obj\\",
+      "outputPath": "C:\\Users\\Ashley\\Desktop\\Centennial Courses\\Year 3\\Semester 3\\DevOps Implementation\\Lab 4\\Lab4Q1\\Comp367Lab4\\Lab4Q1\\ShowCase\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -50,6 +74,12 @@
     "frameworks": {
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "StringLibrary": {
+            "target": "Package",
+            "version": "[1.0.0-CI-20221204-205312, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
